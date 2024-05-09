@@ -1,3 +1,5 @@
+0.03
+
 0.02 2024-05-09T18:39:14+02:00
  - Add check for 'width' parameter if it's CSS unit.
  - Add constructor tests.
