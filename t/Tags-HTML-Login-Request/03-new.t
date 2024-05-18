@@ -27,7 +27,6 @@ isa_ok($obj, 'Tags::HTML::Login::Request');
 eval {
 	Tags::HTML::Login::Request->new(
 		'css' => Test::MockObject->new,
-		'tags' => Tags::Output::Structure->new,
 	);
 };
 is(
